@@ -1,0 +1,76 @@
+body {
+    background-color: #f3f4f6;
+    padding: 24px;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* フォーム */
+form.add-task {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+form.add-task input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+form.add-task button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* タスク一覧 */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+li.task-item button.task-title {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li.task-item button.completed {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
+li.task-item button.delete {
+    background: none;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+}

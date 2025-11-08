@@ -1,2 +1,5 @@
-# このRepositoryについて
-このリポジトリはドットインストールの「Laravel入門」で使うGitHub Codespaces用のテンプレートです。
+# ToDoアプリ（Laravel）
+
+- タスクの追加・編集・削除・完了切り替えが可能
+- Bladeテンプレート＋CSSで見やすく表示
+- 学習目的で作成

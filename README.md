@@ -1,5 +1,6 @@
-# ToDoアプリ（Laravel）
+# todo-app
 
 - タスクの追加・編集・削除・完了切り替えが可能
 - Bladeテンプレート＋CSSで見やすく表示
 - 学習目的で作成
+# todo-app
